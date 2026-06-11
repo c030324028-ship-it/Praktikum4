@@ -12,8 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Praktikum4">
         <activity
+            android:name=".Latihan4"
+            android:exported="true" />
+        <activity
             android:name=".Latihan3"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Latihan2"
             android:exported="true" />

@@ -49,10 +49,11 @@ class Latihan3 : AppCompatActivity() {
                 .replace(R.id.fragmentContainerLatihan3, TentangFragment()).commit()
         }
 
-        fun bukaLatihan4() {
-            val intentLatihan3 = Intent(this, Latihan4::class.java)
-            intentLatihan3.putExtra("username", username)
-            startActivity(intentLatihan3)
-        }
+    }
+
+    fun bukaLatihan4() {
+        val intentLatihan3 = Intent(this, Latihan4::class.java)
+        intentLatihan3.putExtra("username", username)
+        startActivity(intentLatihan3)
     }
 }
